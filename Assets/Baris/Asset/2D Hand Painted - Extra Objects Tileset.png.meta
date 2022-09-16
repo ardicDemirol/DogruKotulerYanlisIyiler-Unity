@@ -1,0 +1,2708 @@
+fileFormatVersion: 2
+guid: 72d6fc31ab417484b825054a4c1bfecd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1802
+        width: 109
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16cd04b9e6446945bca0d5fe44e7d26
+      internalID: -670490385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1801
+        width: 109
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c916106e8dcac443ba46a4c9d367891
+      internalID: 1275630109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1794
+        width: 229
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc3b1aebc518f64abf54ed081020b1e
+      internalID: -329752549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1931
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eb75ce7fa16ea4b86136883c49222c
+      internalID: -139569564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1954
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b83a6262a9f4284d8e05615ecdfd402
+      internalID: -782126685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1796
+        width: 122
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadf43c3ebaaf184b83bf659d6778b62
+      internalID: 397269846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1922
+        width: 129
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f921c02002df3864fa4f47e34b9cacbc
+      internalID: -1295793812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1804
+        width: 251
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0172ff37f49a746a3781e4994bf6ee
+      internalID: -865291018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1813
+        width: 244
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ba4e1cf76e1f940b1e1dbf68d43371
+      internalID: -306405418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1813
+        width: 255
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e953bf0e25eb047aa139e30e1fcf24
+      internalID: -533115591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1803
+        width: 247
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524726a29f8660b468d43cf68a3f2309
+      internalID: 1094798990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1931
+        width: 30
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c050afd2949e4cb73abfe1dfde37c
+      internalID: -1936737199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1931
+        width: 14
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34be669409d32ca40afc0be88fea81e2
+      internalID: 1008837719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1804
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738d1d60cdbd4b246bd3de39a5538ec9
+      internalID: 442339619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1673
+        width: 64
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbb29f1193c2914392a592d8e340e97
+      internalID: -1527482260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1792
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c837068a05652479c5919b32893c1c
+      internalID: 1300309227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1563
+        width: 125
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2fbc8f6dd5c7945b9aa8195b783c07
+      internalID: 1538612246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1548
+        width: 105
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033a1ed6a834ac641b4aa8b01a38d4de
+      internalID: 1642232326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1617
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb948ebe36bd041b09af3ef1d94c6d
+      internalID: -162316859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1541
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e0edb5631a9e344ac8ad30b82f6486
+      internalID: -1667108803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1554
+        width: 124
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da8da2cea73c249870f4ca7fd89a77
+      internalID: 931599637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1665
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0ab7b720715240b68651fd50a616e
+      internalID: 1828836298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1549
+        width: 198
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8589d8d0975b7144fa8fe070e2d236cb
+      internalID: 2039323540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1542
+        width: 127
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6de60671782a040a59d5a846056ee7
+      internalID: -1050121462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1546
+        width: 120
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7efa0c375adfb24292df4265e0f74d4
+      internalID: 1981265650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1409
+        width: 348
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72690e4c0e1d43d4698e48ea2983a9f6
+      internalID: -1808541145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1418
+        width: 295
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434ba608a9e1d24498338a809925b14f
+      internalID: 1806540538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1303
+        width: 206
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d787d53832d7f42b0fd54f22470bfe
+      internalID: -1445635689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1552
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e33c36a824060046877e99dea86d1f7
+      internalID: 1519825269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1306
+        width: 246
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ccd330805ecf8429a081e21141110f
+      internalID: -245138894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1393
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432fbc7300db3414d9e5b98eaf5e83da
+      internalID: 1491490639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1392
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cae4082f7ce5e4a9355074d94b1662
+      internalID: -1115759900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1431
+        width: 93
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e8a3f27162514419c6ae59c9bca64e
+      internalID: 1718086060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1426
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78301066fb945014a908b99ad50a2ef4
+      internalID: -1178731541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1022
+        width: 386
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a49ce679442f24fb474de609e581e9
+      internalID: -160292079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1424
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d0b6fef3bd03146b2658c3410f4f1b
+      internalID: 187168155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1033
+        width: 260
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e8969c80ddd64c8aebe5b2bd56e77
+      internalID: -1756545030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1033
+        width: 374
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141f7e2b8758dc4d84951dcad07c67d
+      internalID: 1006050226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1390
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa9299017445446966947ee930a2c8
+      internalID: -2060022910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1297
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe161a7b5442134a9de09c2403efb22
+      internalID: -1648478034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1302
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e299c183d74675c47bb000cf33131ac4
+      internalID: 1495696139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1302
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce001e83617194aa0183d2aa4c1af8
+      internalID: 1418189227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1154
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50cb88b3ef2e847998c7db184933f2
+      internalID: 1368268736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1278
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33059404c7ea42146a136af9674c6c3f
+      internalID: 2104028227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1158
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61597b397c59dbd4798e611bea298560
+      internalID: -1570444476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1272
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c27d03254ad9af47a0efa5ab5ba94a1
+      internalID: -1011280970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1271
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47ecf65ac6a2ad40921904e4ad13f3d
+      internalID: 1925979026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1267
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fae94f84799e5f44b691c2dbfa4f52f
+      internalID: -1062563525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1250
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba40f76909aafce48a32f2cfb513f8bf
+      internalID: 1565167876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1040
+        width: 371
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1783655909743d14b96927f0723b5905
+      internalID: 1379624077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1181
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d83fb6b77922743b907275ddd6574b
+      internalID: 1234451764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1044
+        width: 108
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d9166398b20ce4ab66095e81e9d5e2
+      internalID: 832389637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1204
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4473d39cdc99be5469a4a559839c7eb8
+      internalID: -475909521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1151
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39ad315b50dc2f4383bae2d2fc6100f
+      internalID: 1627551257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1151
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3dafdb7708aaa44a06e7802579dff0
+      internalID: 116455289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1035
+        width: 83
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd686ef5f502374b8ecd3934cc2c2cf
+      internalID: -1903020210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 902
+        width: 259
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5124f6dfb7ac443b461127feedf584
+      internalID: 1637992152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 886
+        width: 120
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc8d620cc9696c4082ed8bb7e01a21d
+      internalID: 1699701594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 899
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a782d69244bbc0e4ea3b49bec77c1140
+      internalID: 1283135596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1024
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2e4eece219cce46af237bcef7139b8
+      internalID: 1637681333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 902
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e1f84da92d95448d66160b8aef46d
+      internalID: 1414196268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 900
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8216aeb8878fdbe4ea61288fa80f3b29
+      internalID: 260245516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1004
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5730d2a6cb6494d96cd6bf7340f3f4
+      internalID: -734394218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 902
+        width: 246
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd3ea184d1deb94aba977f2d71836b0
+      internalID: 813283504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 770
+        width: 126
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40156615f961c24e8b6c2a150594329
+      internalID: -1494924144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 773
+        width: 67
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff1a634344981488ae251d13f244cc
+      internalID: -272009815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 774
+        width: 127
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea87de58d7fa2a438bdf28d7376c290
+      internalID: -258863378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 777
+        width: 118
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eb1bbdbf9ff2f4dbdf0c7c9243fe20
+      internalID: -2028154582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 778
+        width: 191
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3db1f0f0cacfd4aaa0f40bfd160557
+      internalID: -1270351603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_69
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 908
+        width: 123
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a28a3285913d24885a3a86894377d8
+      internalID: -939436318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_70
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 996
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab9604fced61141b430022d4062e7b
+      internalID: -2102746307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_71
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 887
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a812c54ccaba8c468caa27336790a2a
+      internalID: 396800849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_72
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 778
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d71ce08dd005344af6327d370d46a6
+      internalID: 1054293377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 659
+        width: 125
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77ba6962228e7e4c8c80c1ec5f65baf
+      internalID: -1254977589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 646
+        width: 118
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c3f97b2cc080449e4988a80a1a209
+      internalID: 1000866216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 660
+        width: 119
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9b4b6ceeb79b043b1c0d1c82652a3c
+      internalID: 2105185522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 655
+        width: 219
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573a74dc515cd04589cd45f56e51cb6
+      internalID: -1940933414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 651
+        width: 119
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ced49fb4dd2d4fab201d19fd5f339
+      internalID: -2011489623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 647
+        width: 121
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33075c3cb8b2fd743b366e4715e2b47e
+      internalID: -152609022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 655
+        width: 104
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2014e3742f4fb5d48af2d1036eb302ff
+      internalID: 21930758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 649
+        width: 122
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae516fb649d59a24baa61c4ca6807ca3
+      internalID: -1564380741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 642
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f95cd0f82176b41904d6e9a758be4f
+      internalID: -193994502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 765
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec88e7ec336f744eb89ab324d001d9f
+      internalID: -102842507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 766
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc5e6d25a1734d449089f71192bd506
+      internalID: -1534986733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 530
+        width: 233
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490da9837c97734991553dc4df659c6
+      internalID: -1934551910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 526
+        width: 183
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e487b07d30d8b714596216fc553295d2
+      internalID: -1445075391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 650
+        width: 123
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e939d1f6d8d30469911290828d9553
+      internalID: 1034154079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 697
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c00a3a8723a34fb3a057f41e55aa9
+      internalID: 364621794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_88
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 644
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bdaf101af556d4ca9492c4184e6046
+      internalID: -1587538213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_89
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 535
+        width: 114
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e18ee30b7d284479a709e3df47f40d
+      internalID: -698130641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 19
+        width: 370
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c1fe1a0fb76934f8271fd196d92a90
+      internalID: 586687643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 523
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8588add49d5d943b34e19dc5400a22
+      internalID: 1180967674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_92
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 636
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007cbeb270e2f0342ac78752cb5cb82b
+      internalID: 2021298969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_93
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 27
+        width: 234
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cbe0315a4e4e94a95ce25ce15b7324
+      internalID: 199951627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_94
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 30
+        width: 380
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d892bf9a189c4eadb50c2024bc52a
+      internalID: 1510286236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_95
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 278
+        width: 115
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f955e7e6c3294083059096357d5c1
+      internalID: -1488695467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_96
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 518
+        width: 91
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a1f2fba9848743ac2bf2c8ad60e16
+      internalID: -73927015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_97
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 552
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d365e27012d348a4298b979d0bbad9d2
+      internalID: 1931020530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_98
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 387
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d7f8aba7c1bed479994be94c0021ca
+      internalID: -1885227915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_99
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 406
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99701dd4f6da80049830545d596880ad
+      internalID: -1995804486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_100
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 386
+        width: 118
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba0a29d481533c4c8a1f29c6a903b72
+      internalID: -2028103605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_101
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 263
+        width: 251
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f358ee257d276468e289be1a68ace7
+      internalID: -883283125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_102
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 392
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d81110ec2109147a449dd76646d3e6
+      internalID: -1478813481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_103
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 263
+        width: 120
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e97e1de5ed834c98fd9d598350e49
+      internalID: -1797286800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_104
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 259
+        width: 352
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06428aaa785a9d4ead3870d632b32cb
+      internalID: -11148039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_105
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 374
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c4f97c561702b4bba8820703550e3c
+      internalID: 704688273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_106
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 355
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5120c1e09b61a3046b5e7960d2a17520
+      internalID: 398893963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_107
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 259
+        width: 124
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c42c98200043f84ca6255491274b91d
+      internalID: 1561656413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_108
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 22
+        width: 93
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6460ffbfeae5e6146b99e0b70e04a17a
+      internalID: 1905626878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_109
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 36
+        width: 244
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d082c3c5f85d442b5277466b511aa2
+      internalID: 58989052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_110
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 22
+        width: 232
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492315421f31cc44d99095adefa7d1f9
+      internalID: 1068740354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_111
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 130
+        width: 239
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc3adf80d297d249bbd39e62d805131
+      internalID: 959103495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_112
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 133
+        width: 118
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8216d6ba890b20845874d180a9695abe
+      internalID: -1668482613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_113
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 64
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b22cb6e6816e4a9cefb5f5291912e
+      internalID: 697907795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_114
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 7
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c503859f6775152479c5a465621de06c
+      internalID: -225534873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_115
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2
+        width: 200
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee6a30f11dbbb246a097df591a625d8
+      internalID: -1835083840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D Hand Painted - Extra Objects Tileset_116
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 21
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd80b80a74773d74887e02bbc5916998
+      internalID: 142247655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2D Hand Painted - Extra Objects Tileset_109: 58989052
+      2D Hand Painted - Extra Objects Tileset_63: 813283504
+      2D Hand Painted - Extra Objects Tileset_48: 1565167876
+      2D Hand Painted - Extra Objects Tileset_116: 142247655
+      2D Hand Painted - Extra Objects Tileset_101: -883283125
+      2D Hand Painted - Extra Objects Tileset_2: -329752549
+      2D Hand Painted - Extra Objects Tileset_9: -533115591
+      2D Hand Painted - Extra Objects Tileset_67: -2028154582
+      2D Hand Painted - Extra Objects Tileset_94: 1510286236
+      2D Hand Painted - Extra Objects Tileset_99: -1995804486
+      2D Hand Painted - Extra Objects Tileset_52: -475909521
+      2D Hand Painted - Extra Objects Tileset_16: 1538612246
+      2D Hand Painted - Extra Objects Tileset_54: 116455289
+      2D Hand Painted - Extra Objects Tileset_37: 1006050226
+      2D Hand Painted - Extra Objects Tileset_87: 364621794
+      2D Hand Painted - Extra Objects Tileset_46: 1925979026
+      2D Hand Painted - Extra Objects Tileset_39: -1648478034
+      2D Hand Painted - Extra Objects Tileset_59: 1637681333
+      2D Hand Painted - Extra Objects Tileset_86: 1034154079
+      2D Hand Painted - Extra Objects Tileset_82: -102842507
+      2D Hand Painted - Extra Objects Tileset_64: -1494924144
+      2D Hand Painted - Extra Objects Tileset_19: -1667108803
+      2D Hand Painted - Extra Objects Tileset_106: 398893963
+      2D Hand Painted - Extra Objects Tileset_61: 260245516
+      2D Hand Painted - Extra Objects Tileset_78: -152609022
+      2D Hand Painted - Extra Objects Tileset_97: 1931020530
+      2D Hand Painted - Extra Objects Tileset_79: 21930758
+      2D Hand Painted - Extra Objects Tileset_55: -1903020210
+      2D Hand Painted - Extra Objects Tileset_33: -1178731541
+      2D Hand Painted - Extra Objects Tileset_58: 1283135596
+      2D Hand Painted - Extra Objects Tileset_34: -160292079
+      2D Hand Painted - Extra Objects Tileset_91: 1180967674
+      2D Hand Painted - Extra Objects Tileset_65: -272009815
+      2D Hand Painted - Extra Objects Tileset_60: 1414196268
+      2D Hand Painted - Extra Objects Tileset_84: -1934551910
+      2D Hand Painted - Extra Objects Tileset_11: -1936737199
+      2D Hand Painted - Extra Objects Tileset_6: -1295793812
+      2D Hand Painted - Extra Objects Tileset_53: 1627551257
+      2D Hand Painted - Extra Objects Tileset_114: -225534873
+      2D Hand Painted - Extra Objects Tileset_35: 187168155
+      2D Hand Painted - Extra Objects Tileset_10: 1094798990
+      2D Hand Painted - Extra Objects Tileset_93: 199951627
+      2D Hand Painted - Extra Objects Tileset_41: 1418189227
+      2D Hand Painted - Extra Objects Tileset_28: 1519825269
+      2D Hand Painted - Extra Objects Tileset_81: -193994502
+      2D Hand Painted - Extra Objects Tileset_31: -1115759900
+      2D Hand Painted - Extra Objects Tileset_1: 1275630109
+      2D Hand Painted - Extra Objects Tileset_30: 1491490639
+      2D Hand Painted - Extra Objects Tileset_22: 2039323540
+      2D Hand Painted - Extra Objects Tileset_115: -1835083840
+      2D Hand Painted - Extra Objects Tileset_12: 1008837719
+      2D Hand Painted - Extra Objects Tileset_76: -1940933414
+      2D Hand Painted - Extra Objects Tileset_71: 396800849
+      2D Hand Painted - Extra Objects Tileset_72: 1054293377
+      2D Hand Painted - Extra Objects Tileset_45: -1011280970
+      2D Hand Painted - Extra Objects Tileset_102: -1478813481
+      2D Hand Painted - Extra Objects Tileset_7: -865291018
+      2D Hand Painted - Extra Objects Tileset_103: -1797286800
+      2D Hand Painted - Extra Objects Tileset_42: 1368268736
+      2D Hand Painted - Extra Objects Tileset_77: -2011489623
+      2D Hand Painted - Extra Objects Tileset_112: -1668482613
+      2D Hand Painted - Extra Objects Tileset_74: 1000866216
+      2D Hand Painted - Extra Objects Tileset_110: 1068740354
+      2D Hand Painted - Extra Objects Tileset_89: -698130641
+      2D Hand Painted - Extra Objects Tileset_32: 1718086060
+      2D Hand Painted - Extra Objects Tileset_104: -11148039
+      2D Hand Painted - Extra Objects Tileset_113: 697907795
+      2D Hand Painted - Extra Objects Tileset_88: -1587538213
+      2D Hand Painted - Extra Objects Tileset_51: 832389637
+      2D Hand Painted - Extra Objects Tileset_108: 1905626878
+      2D Hand Painted - Extra Objects Tileset_105: 704688273
+      2D Hand Painted - Extra Objects Tileset_8: -306405418
+      2D Hand Painted - Extra Objects Tileset_18: -162316859
+      2D Hand Painted - Extra Objects Tileset_66: -258863378
+      2D Hand Painted - Extra Objects Tileset_57: 1699701594
+      2D Hand Painted - Extra Objects Tileset_27: -1445635689
+      2D Hand Painted - Extra Objects Tileset_70: -2102746307
+      2D Hand Painted - Extra Objects Tileset_69: -939436318
+      2D Hand Painted - Extra Objects Tileset_92: 2021298969
+      2D Hand Painted - Extra Objects Tileset_13: 442339619
+      2D Hand Painted - Extra Objects Tileset_4: -782126685
+      2D Hand Painted - Extra Objects Tileset_50: 1234451764
+      2D Hand Painted - Extra Objects Tileset_23: -1050121462
+      2D Hand Painted - Extra Objects Tileset_75: 2105185522
+      2D Hand Painted - Extra Objects Tileset_3: -139569564
+      2D Hand Painted - Extra Objects Tileset_80: -1564380741
+      2D Hand Painted - Extra Objects Tileset_5: 397269846
+      2D Hand Painted - Extra Objects Tileset_83: -1534986733
+      2D Hand Painted - Extra Objects Tileset_100: -2028103605
+      2D Hand Painted - Extra Objects Tileset_14: -1527482260
+      2D Hand Painted - Extra Objects Tileset_36: -1756545030
+      2D Hand Painted - Extra Objects Tileset_43: 2104028227
+      2D Hand Painted - Extra Objects Tileset_15: 1300309227
+      2D Hand Painted - Extra Objects Tileset_47: -1062563525
+      2D Hand Painted - Extra Objects Tileset_21: 1828836298
+      2D Hand Painted - Extra Objects Tileset_38: -2060022910
+      2D Hand Painted - Extra Objects Tileset_107: 1561656413
+      2D Hand Painted - Extra Objects Tileset_25: -1808541145
+      2D Hand Painted - Extra Objects Tileset_0: -670490385
+      2D Hand Painted - Extra Objects Tileset_85: -1445075391
+      2D Hand Painted - Extra Objects Tileset_98: -1885227915
+      2D Hand Painted - Extra Objects Tileset_17: 1642232326
+      2D Hand Painted - Extra Objects Tileset_40: 1495696139
+      2D Hand Painted - Extra Objects Tileset_29: -245138894
+      2D Hand Painted - Extra Objects Tileset_56: 1637992152
+      2D Hand Painted - Extra Objects Tileset_68: -1270351603
+      2D Hand Painted - Extra Objects Tileset_90: 586687643
+      2D Hand Painted - Extra Objects Tileset_24: 1981265650
+      2D Hand Painted - Extra Objects Tileset_49: 1379624077
+      2D Hand Painted - Extra Objects Tileset_62: -734394218
+      2D Hand Painted - Extra Objects Tileset_95: -1488695467
+      2D Hand Painted - Extra Objects Tileset_96: -73927015
+      2D Hand Painted - Extra Objects Tileset_26: 1806540538
+      2D Hand Painted - Extra Objects Tileset_73: -1254977589
+      2D Hand Painted - Extra Objects Tileset_44: -1570444476
+      2D Hand Painted - Extra Objects Tileset_20: 931599637
+      2D Hand Painted - Extra Objects Tileset_111: 959103495
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
