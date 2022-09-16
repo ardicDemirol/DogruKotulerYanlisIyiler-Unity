@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     SpriteRenderer spriteRenderer;
     public Rigidbody2D rb;
     public Animator animator;
+    BoxCollider2D boxCollider;
+    private RaycastHit2D hit;
         
         
     
@@ -27,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        rb.velocity = new Vector2(movement.x, movement.y);
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
@@ -52,6 +56,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-          
+       
     }
 }
