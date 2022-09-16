@@ -16,14 +16,11 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();    
-    }
+  
 
     private void Start()
     {
-            
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()

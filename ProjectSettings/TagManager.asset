@@ -44,7 +44,7 @@ TagManager:
   - name: Ground
     uniqueID: 240593431
     locked: 0
-  - name: Blockings
+  - name: Blocking
     uniqueID: 269151357
     locked: 0
   - name: Player
