@@ -47,13 +47,11 @@ TagManager:
   - name: Blocking
     uniqueID: 269151357
     locked: 0
-<<<<<<< HEAD
   - name: House
-    uniqueID: 3323286451
-=======
+    uniqueID: 1526763675
+    locked: 0
   - name: Interactable
     uniqueID: 1504399723
->>>>>>> 014acae4010d3487c87ab9b3dafbfcbca869ae88
     locked: 0
   - name: Player
     uniqueID: 1280300507
