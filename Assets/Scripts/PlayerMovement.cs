@@ -14,9 +14,16 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     Vector2 movement;
 
-    private void Start()
+
+
+    private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();    
+    }
+
+    private void Start()
+    {
+            
     }
 
     void Update()
@@ -47,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-                  
+
+          
     }
 }
