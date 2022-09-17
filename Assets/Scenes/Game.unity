@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 303895039}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,7 +385,7 @@ Transform:
   - {fileID: 546742244}
   - {fileID: 422170782}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &303895033
 Animator:
@@ -578,6 +578,24 @@ Transform:
   m_Father: {fileID: 422170782}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1216538575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 419224536464802745, guid: 9485b03e1939fa24b946f4db1cce39ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 419224537275408982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1216538579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216538575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3d9ea7ef515f840ac1447f8ecd8c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1413124944
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +881,29 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!1 &1803441444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 419224536606266856, guid: 9485b03e1939fa24b946f4db1cce39ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 419224537275408982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1803441449
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803441444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 5
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1999556012
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +1039,7 @@ PrefabInstance:
     - target: {fileID: 419224536464802727, guid: 9485b03e1939fa24b946f4db1cce39ee,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 419224536464802727, guid: 9485b03e1939fa24b946f4db1cce39ee,
         type: 3}

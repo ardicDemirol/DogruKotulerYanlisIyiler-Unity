@@ -49,6 +49,8 @@ public class AimWeapon : PlayerAimWeapon
     {
         if (Input.GetMouseButtonDown(0))
         {
+            ShakeController.Instance.ShakeCamera(3f,.1f);
+
             Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
 
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position,firePoint.rotation);
