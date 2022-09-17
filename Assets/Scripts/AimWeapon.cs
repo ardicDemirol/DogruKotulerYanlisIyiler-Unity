@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,14 +6,28 @@ using CodeMonkey.Utils;
 
 public class AimWeapon : PlayerAimWeapon
 {
+    public event EventHandler<OnShootEventArgs> OnShoot;
 
-    public Transform aimTransform;
+    public class OnShootEventArgs: EventArgs
+    {
+        public Vector3 gunEndPointPosition;
+        public Vector3 shootPosition;
+    }
+
+
+    [SerializeField] Transform aimTransform;
     private Animator aimAnimator;
+    [SerializeField] Transform aimGunEndPointTransform;
+
+    public GameObject bulletPrefab;
+    public float bulletForce = 20f;
+    public Transform firePoint;
     
     void Awake()
     {
-        //aimTransform = transform.Find("Aim");
+        aimTransform = transform.Find("Aim");
         aimAnimator = aimTransform.GetComponent<Animator>();
+        //aimGunEndPointTransform = aimTransform.GetComponent<Transform>();
     }
 
     void Update()
@@ -34,7 +49,22 @@ public class AimWeapon : PlayerAimWeapon
     {
         if (Input.GetMouseButtonDown(0))
         {
-            aimAnimator.SetTrigger("Shoot");
+            Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
+
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position,firePoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(mousePosition * bulletForce, ForceMode2D.Impulse);
+            Destroy(bullet, 3f);
+            
+
+            
+
+           // aimAnimator.SetTrigger("Shoot");
+            //OnShoot?.Invoke(this, new OnShootEventArgs
+            //{
+            //    gunEndPointPosition = aimGunEndPointTransform.position,
+            //    shootPosition = mousePosition
+            //});
         }
     }
 }
