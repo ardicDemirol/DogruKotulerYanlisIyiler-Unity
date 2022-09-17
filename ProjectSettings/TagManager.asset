@@ -57,9 +57,12 @@ TagManager:
   - name: Ground
     uniqueID: 4140230971
     locked: 0
-  - name: Player
-    uniqueID: 2586529223
-    locked: 0
   - name: Houses
     uniqueID: 2529076137
+    locked: 0
+  - name: Interactable
+    uniqueID: 430943229
+    locked: 0
+  - name: Player
+    uniqueID: 2586529223
     locked: 0
