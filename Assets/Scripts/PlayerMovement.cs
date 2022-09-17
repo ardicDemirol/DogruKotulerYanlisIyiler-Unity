@@ -11,11 +11,11 @@ public class PlayerMovement : MonoBehaviour
     private RaycastHit2D hit;
 
 
-    public Camera cam;
+    
     public float moveSpeed = 5f;
 
     Vector2 movement;
-    Vector2 mousePos;
+    
 
 
 
@@ -31,36 +31,34 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
 
-    //    rb.velocity = new Vector2(movement.x, movement.y);
-    //    animator.SetFloat("Horizontal", movement.x);
-    //    animator.SetFloat("Vertical", movement.y);
-    //    animator.SetFloat("Speed", movement.sqrMagnitude);
+        rb.velocity = new Vector2(movement.x, movement.y);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
-    //    FlipCharcter();
+        FlipCharcter();
 
     }
 
-    //private void FlipCharcter()
-    //{
-    //    if (movement.x < 0)
-    //    {
-    //        spriteRenderer.flipX = true;
-    //    }
-    //    else
-    //    {
-    //        spriteRenderer.flipX = false;
-    //    }
-    //}
+    private void FlipCharcter()
+    {
+        if (movement.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y,lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+       
        
     }
 }
