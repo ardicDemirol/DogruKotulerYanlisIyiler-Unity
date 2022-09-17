@@ -64,6 +64,9 @@ TagManager:
   - name: Interactable
     uniqueID: 430943229
     locked: 0
+  - name: Enemy
+    uniqueID: 2107833611
+    locked: 0
   - name: Player
     uniqueID: 2586529223
     locked: 0

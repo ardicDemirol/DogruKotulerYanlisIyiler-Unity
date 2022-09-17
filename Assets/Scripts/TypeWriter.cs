@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-//[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(AudioSource))]
 
 public class TypeWriter : MonoBehaviour
 {
@@ -16,48 +16,7 @@ public class TypeWriter : MonoBehaviour
     public AudioClip typeSound;
     AudioSource audSrc;
 
-    //public float delay;
-    //bool writing = true;
-
-    //[Multiline]
-    //public string yazi;
-
-    //Text thisText;
-
-    //private bool GetWriting()
-    //{
-    //    return writing;
-    //}
-
-    //void Start()
-    //{
-    //    
-    //    thisText = GetComponent<Text>();
-
-    //    StartCoroutine(TypeWrite());
-    //}
-
-
-    //IEnumerator TypeWrite()
-    //{
-    //    foreach(char i in yazi)
-    //    {
-    //        thisText.text += i.ToString();
-
-    //        audSrc.pitch = Random.Range(0.8f, 1.2f);
-    //        audSrc.PlayOneShot(typeSound);
-
-    //        if(i.ToString() == ".")
-    //        {
-    //            yield return new WaitForSeconds(1);
-    //        }
-    //        else
-    //        {
-    //            yield return new WaitForSeconds(delay);
-    //        }
-
-    //    }
-    //}
+   
 
 
     public float delay = 0.1f;

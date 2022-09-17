@@ -16,7 +16,7 @@ public class AimWeapon : PlayerAimWeapon
 
 
     [SerializeField] Transform aimTransform;
-    //  private Animator aimAnimator;
+    private Animator aimAnimator;
     [SerializeField] Transform aimGunEndPointTransform;
 
     public GameObject bulletPrefab;
