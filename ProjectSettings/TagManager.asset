@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Weapon
+  - GunBody
+  - GunSight
+  - GunBarrel
+  - GunMuzzle
+  - GunClip
+  - GunProjectile
+  - Wall
+  - GunStock
+  - SmokeTrail
+  - Spawner
+  - GunFlash
   layers:
   - Default
   - TransparentFX
@@ -11,9 +24,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Background
-  - Player
-  - Blocking
+  - 
+  - 
+  - Enemy
   - 
   - 
   - 
@@ -42,17 +55,11 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Ground
-    uniqueID: 240593431
-    locked: 0
-  - name: Blocking
-    uniqueID: 269151357
-    locked: 0
-  - name: House
-    uniqueID: 1526763675
-    locked: 0
-  - name: Interactable
-    uniqueID: 1504399723
+    uniqueID: 4140230971
     locked: 0
   - name: Player
-    uniqueID: 1280300507
+    uniqueID: 2586529223
+    locked: 0
+  - name: Houses
+    uniqueID: 2529076137
     locked: 0
