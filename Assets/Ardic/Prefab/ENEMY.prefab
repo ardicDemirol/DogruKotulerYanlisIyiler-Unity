@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1952074332184025215}
   - component: {fileID: 1952074332184025212}
   - component: {fileID: 1952074332184025213}
-  - component: {fileID: 142556972}
-  m_Layer: 0
+  - component: {fileID: 8259209840531327219}
+  m_Layer: 8
   m_Name: ENEMY
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -148,8 +148,8 @@ MonoBehaviour:
   speed: 2
   target: {fileID: 0}
   minimumDistance: 1.5
-  enemyHealth: 5
---- !u!50 &142556972
+  enemyHealth: 3
+--- !u!50 &8259209840531327219
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &1952074332789243028
 GameObject:
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952074332789243031}
   - component: {fileID: 1952074332789243030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952074333086076843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aim
   m_TagString: Untagged
   m_Icon: {fileID: 0}

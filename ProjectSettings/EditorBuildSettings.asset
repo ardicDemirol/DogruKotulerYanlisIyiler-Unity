@@ -12,21 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Login Text 1.unity
     guid: 9041b7fad48c78d459e3d9fb18a88e9d
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
-    guid: 122eba53bd1d07d45b2c0d16d7c261d0
+    path: Assets/Scenes/Sahne 1.unity
+    guid: e4b34a9925869b64db65edcd15350196
   - enabled: 1
     path: Assets/Scenes/Login Text 2.unity
     guid: a17a3b48e6b2cda4ab5b68015eee14b3
   - enabled: 1
-    path: Assets/Scenes/Scene2.unity
-    guid: ec696541b6b5ed645925cb293db20046
+    path: Assets/Scenes/Sahne 2.unity
+    guid: 8d470fa958144ff488eca1cbfed52aa3
   - enabled: 1
     path: Assets/Scenes/Exit Text.unity
     guid: 2317d1c84c1b2f848b7dcfc7f240a5c7
-  - enabled: 0
-    path: Assets/Scenes/DeathScreen1.unity
-    guid: e2412d1cfd769c64b8c3a4042221475c
-  - enabled: 0
-    path: Assets/Scenes/DeathScreen2.unity
-    guid: 9faed607d2656eb43a0623b298740bc2
   m_configObjects: {}
