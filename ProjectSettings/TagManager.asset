@@ -28,12 +28,21 @@ TagManager:
   - Water
   - UI
   - 
+<<<<<<< Updated upstream
   - Background
   - Enemy
   - Bullet
   - Player
   - Projectile
   - Interactible
+=======
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
@@ -57,6 +66,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< Updated upstream
   - name: Ground
     uniqueID: 4140230971
     locked: 0
@@ -69,3 +79,5 @@ TagManager:
   - name: 
     uniqueID: 3456067279
     locked: 0
+=======
+>>>>>>> Stashed changes
