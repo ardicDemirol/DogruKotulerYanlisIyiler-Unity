@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 1952074332184025215}
   - component: {fileID: 1952074332184025212}
   - component: {fileID: 1952074332184025213}
-  - component: {fileID: 1952074332184025202}
+  - component: {fileID: 142556972}
   m_Layer: 0
   m_Name: ENEMY
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2107833611
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1708438073
+  m_SortingLayer: 3
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 0f39a9205e4394ee1b6ba8269428d176, type: 3}
   m_Color: {r: 0.9150943, g: 0.18704751, b: 0.18704751, a: 1}
   m_FlipX: 0
@@ -102,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.031484604, y: -0.15929437}
+  m_Offset: {x: 0.05118656, y: -0.05661726}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -113,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7057724, y: 2.5615878}
+  m_Size: {x: 2.6464672, y: 3.4733076}
   m_EdgeRadius: 0
 --- !u!114 &1952074332184025212
 MonoBehaviour:
@@ -128,11 +128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  target: {fileID: 3964700746497802142, guid: 09c3c6662872ac245acd2b3c9918d895, type: 3}
+  target: {fileID: 0}
   minimumDistance: 2
   projectile: {fileID: 2482669330876068741, guid: 33f52ddc3408b184098db7c73dded364,
     type: 3}
-  timeBetweenShots: 1.5
+  timeBetweenShots: 2.5
 --- !u!114 &1952074332184025213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,10 +146,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  target: {fileID: 3964700746497802142, guid: 09c3c6662872ac245acd2b3c9918d895, type: 3}
+  target: {fileID: 0}
   minimumDistance: 1.5
   enemyHealth: 5
---- !u!50 &1952074332184025202
+--- !u!50 &142556972
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!1 &1952074332789243028
 GameObject:

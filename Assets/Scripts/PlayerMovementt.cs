@@ -17,11 +17,14 @@ public class PlayerMovementt : MonoBehaviour
     public float moveSpeed = 5f;
 
     Vector2 movement;
-    
-
 
 
   
+
+
+
+
+
 
     private void Start()
     {
@@ -81,24 +84,19 @@ public class PlayerMovementt : MonoBehaviour
             if(playerHealth <= 0f)
             {
                 Destroy(gameObject);
-                DeathScene();
-                
-
+                RestartLevel();
             }
             
         }
     }
 
 
-    void DeathScene()
+    void RestartLevel()
     {
-        SceneManager.LoadScene("DeathScreen");
-        Invoke("ReScene",2f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //Invoke("ReScene",2f);
 
     }
 
-    void ReScene()
-    {
-        SceneManager.LoadScene("Scene1");
-    }
+   
 }
