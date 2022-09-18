@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public GameObject hitEffect;
+    public GameObject bulletPrefab;
     
     
 
@@ -21,13 +21,15 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+        GameObject effect = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         Destroy(effect, 5f);
         Destroy(gameObject);
     }
 
 
-    
+
+
+
 
 
 }

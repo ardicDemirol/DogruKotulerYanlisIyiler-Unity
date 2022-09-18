@@ -9,7 +9,7 @@ public class PlayerMovementt : MonoBehaviour
     public Animator animator;
     BoxCollider2D boxCollider;
     private RaycastHit2D hit;
-    float playerHealth = 80f;
+    float playerHealth = 10f;
     bool isAlive = true;
 
 
@@ -73,21 +73,28 @@ public class PlayerMovementt : MonoBehaviour
                  
     }
 
-    //IEnumerator Die()
-    //{
-    //    if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Projectile")))
-    //    {
-    //        playerHealth -= 10f;
-    //        if(playerHealth <= 0)
-    //        {
-
-    //            isAlive = false;
-    //            SceneManager.LoadScene("DeathScreen");
-    //            yield return new WaitForSeconds(2f);
-    //            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Projectile")
+        {
+            playerHealth -= 1f;
+            if(playerHealth <= 0f)
+            {
                 
-    //        }
+                Destroy(gameObject);
+                SceneManager.LoadScene("DeathScreen");
+                Invoke("Die", 2f);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
             
-    //    }
-    //}
+        }
+    }
+
+    IEnumerator Die()
+    {
+        
+        yield return new WaitForSeconds(2f);
+        
+
+    }
 }

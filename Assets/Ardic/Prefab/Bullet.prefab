@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5782517191713315603}
   - component: {fileID: 3137216723490544275}
   - component: {fileID: 7729430897801101212}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5c52f53ae4b9e47a04ff4702096353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEffect: {fileID: 0}
+  bulletPrefab: {fileID: 2482669330876068741}
 --- !u!50 &7729430897801101212
 Rigidbody2D:
   serializedVersion: 4

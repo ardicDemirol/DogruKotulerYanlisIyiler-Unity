@@ -13,6 +13,14 @@ public class FollowEnemy : MonoBehaviour
     public float timeBetweenShots;
     private float nextShotTime;
 
+
+     float enemyHealth= 3f;
+
+    private void Start()
+    {
+        
+    }
+
     void Update()
     {
         if (Time.time > nextShotTime)
@@ -27,5 +35,24 @@ public class FollowEnemy : MonoBehaviour
 
         }
 
+    }
+     /// <summary>
+     /// ////////////////////////////////////////////////////////////
+     /// </summary>
+     /// <param name="collision"></param>
+     /// 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Bullet")
+        {
+            Debug.Log("X");
+            enemyHealth -= 1f;
+            if(enemyHealth < 0)
+            {
+                Destroy(collision.gameObject);
+            }
+            
+        }
     }
 }

@@ -8,7 +8,7 @@ public class AimWeapon : PlayerAimWeapon
 {
     public event EventHandler<OnShootEventArgs> OnShoot;
 
-    public class OnShootEventArgs: EventArgs
+    public class OnShootEventArgs : EventArgs
     {
         public Vector3 gunEndPointPosition;
         public Vector3 shootPosition;
@@ -21,13 +21,13 @@ public class AimWeapon : PlayerAimWeapon
 
     public GameObject bulletPrefab;
     public float bulletForce = 20f;
-    public Transform firePoint;
     
+
     void Awake()
     {
         aimTransform = transform.Find("Aim");
         aimAnimator = aimTransform.GetComponent<Animator>();
-        
+
         //aimGunEndPointTransform = aimTransform.GetComponent<Transform>();
     }
 
@@ -35,6 +35,11 @@ public class AimWeapon : PlayerAimWeapon
     {
         HandleAiming();
         HandleShooting();
+    }
+
+    private void Start()
+    {
+        
     }
 
     private void HandleAiming()
@@ -50,31 +55,29 @@ public class AimWeapon : PlayerAimWeapon
     {
         if (Input.GetMouseButtonDown(0))
         {
-            ShakeController.Instance.ShakeCamera(3f,.1f);
+            ShakeController.Instance.ShakeCamera(3f, .1f);
 
             Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
 
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position,firePoint.rotation);
+            GameObject bullet = Instantiate(bulletPrefab, aimGunEndPointTransform.position, aimGunEndPointTransform.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(mousePosition * bulletForce, ForceMode2D.Impulse);
-            Destroy(bullet, 3f);
-            
+            Destroy(bullet, 2.5f);
 
-            
 
-           // aimAnimator.SetTrigger("Shoot");
-            //OnShoot?.Invoke(this, new OnShootEventArgs
-            //{
-            //    gunEndPointPosition = aimGunEndPointTransform.position,
-            //    shootPosition = mousePosition
-            //});
+
+
         }
     }
 
+    
 
-    //private void OnTriggerEnter2D(Collider2D hitInfo)
-    //{
-    //    Debug.Log(hitInfo.name);
-    //    Destroy(gameObject);
-    //}
-}
+
+
+}   
+
+    
+
+
+   
+
