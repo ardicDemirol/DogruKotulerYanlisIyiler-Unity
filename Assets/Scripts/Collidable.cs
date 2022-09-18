@@ -28,6 +28,7 @@ public class Collidable : MonoBehaviour
             {
                 continue;
             }
+            
 
 
             OnCollider(hits[i]);
@@ -39,6 +40,7 @@ public class Collidable : MonoBehaviour
     protected  virtual void OnCollider(Collider2D collider2D)
     {
         Debug.Log(collider2D.name);
+        
     }
 
 }
