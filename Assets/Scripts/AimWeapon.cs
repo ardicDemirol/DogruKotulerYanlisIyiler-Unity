@@ -21,10 +21,15 @@ public class AimWeapon : PlayerAimWeapon
 
     public GameObject bulletPrefab;
     public float bulletForce = 20f;
-    
+
+
+    public AudioClip typeSound;
+    AudioSource audSrc;
+
 
     void Awake()
     {
+        audSrc = GetComponent<AudioSource>();
         aimTransform = transform.Find("Aim");
         aimAnimator = aimTransform.GetComponent<Animator>();
 
@@ -55,6 +60,7 @@ public class AimWeapon : PlayerAimWeapon
     {
         if (Input.GetMouseButtonDown(0))
         {
+            audSrc.PlayOneShot(typeSound);
             ShakeController.Instance.ShakeCamera(3f, .1f);
 
             Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();

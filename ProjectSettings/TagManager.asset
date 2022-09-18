@@ -5,21 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Weapon
-  - GunBody
-  - GunSight
-  - GunBarrel
-  - GunMuzzle
-  - GunClip
-  - GunProjectile
-  - Wall
-  - GunStock
-  - SmokeTrail
-  - Spawner
-  - GunFlash
+  - Interactable
   - Bullet
   - Projectile
-  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -27,22 +15,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-<<<<<<< Updated upstream
-  - Background
-  - Enemy
+  - Projectile
   - Bullet
   - Player
-  - Projectile
-  - Interactible
-=======
+  - Enemy
+  - Interactable
   - 
   - 
-  - 
-  - 
-  - 
-  - 
->>>>>>> Stashed changes
   - 
   - 
   - 
@@ -66,18 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< Updated upstream
-  - name: Ground
-    uniqueID: 4140230971
-    locked: 0
   - name: Interactable
-    uniqueID: 430943229
+    uniqueID: 1308233755
     locked: 0
   - name: Player
-    uniqueID: 2586529223
+    uniqueID: 3942279181
     locked: 0
-  - name: 
-    uniqueID: 3456067279
-    locked: 0
-=======
->>>>>>> Stashed changes

@@ -259,9 +259,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56cc0d0313c161145b14843970b158ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typeSound: {fileID: 8300000, guid: 57e5734adc8a3d34f8197dcd3a4a2d48, type: 3}
+  typeSound: {fileID: 8300000, guid: d703ba6885530804d895eddcef02f1e0, type: 3}
   delay: 0.1
-  fullText: 
+  fullText: 'Konagin Sahibi: Kizim korkma arkama gec. Korkulacak bir sey yok. Jason:
+    iste burdasiniz. Cektigim onca dert ve aci simdi bir anlam bulacak. Konagin Sahibi:
+    Dur bir dakika. Yoksa sen ... olamaz. O cocugun babasi sensin degil mi ? Jason:
+    Beni tanimana sasirdim. Konagin Sahibi: Hicbir sey sandigin gibi degil. Oglunun
+    olumu bizi kahretti yemin ederim. Jason: Kahretmek mi ? Guldurme beni. Mahkemede
+    ki karari duyduktan sonra nasil sevindiginizi cok iyi hatirliyorum. Siz hayatiniza
+    devam ettiniz. Bense oglumdan oldum. Soylesene suclu oldugunu bildigin halde
+    hayatina nasil devam ediyorsun. Senin icin daha zor olmali. Kim masum bir can
+    aldiktan sonra hayatina eskisi gibi devam edebilirki. Gerci artik bunlarin bir
+    onemi kalmadi. Suan her sey sonlanmak uzere. Konagin Sahibi: Yapma yalvaririm.
+    Ne istersen veririm. Jason: Aslinda istedigim bir sey var. Bunca yil benim ne
+    hissettigimi anlaman...........(Silah Sesi)'
   currentText: {fileID: 142577045}
 --- !u!82 &142577044
 AudioSource:
@@ -558,6 +569,76 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &931197652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7876270353986894571, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_Name
+      value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876270353986894573, guid: a119be1250f3e714bacc95eb816be2e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7876270353986894574, guid: a119be1250f3e714bacc95eb816be2e8, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a119be1250f3e714bacc95eb816be2e8, type: 3}
 --- !u!1 &1117075539
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,9 +13,7 @@ public class TypeWriter : MonoBehaviour
 
 
 
-    public AudioClip typeSound;
-    AudioSource audSrc;
-
+    
    
 
 
@@ -29,7 +27,7 @@ public class TypeWriter : MonoBehaviour
     private void Start()
     {
 
-        audSrc = GetComponent<AudioSource>();
+        
         StartCoroutine(ShowText());
 
 
@@ -46,7 +44,7 @@ public class TypeWriter : MonoBehaviour
         for (int i = 0; i < fullText.Length + 1; i++)
         {
             
-            audSrc.PlayOneShot(typeSound);
+            
 
             currentText.text = fullText.Substring(0, i);
             yield return new WaitForSeconds(delay);
@@ -54,6 +52,14 @@ public class TypeWriter : MonoBehaviour
 
         }
         yield return new WaitForSeconds(loadScene);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
     }
 }

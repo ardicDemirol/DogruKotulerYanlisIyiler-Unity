@@ -19,7 +19,12 @@ public class PlayerMovementt : MonoBehaviour
     Vector2 movement;
 
 
-  
+
+
+    public AudioClip typeSound;
+    AudioSource audSrc;
+    public AudioClip combatSFX;
+    AudioSource comSrc;
 
 
 
@@ -28,16 +33,20 @@ public class PlayerMovementt : MonoBehaviour
 
     private void Start()
     {
+        audSrc = GetComponent<AudioSource>();
+        comSrc = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        comSrc.PlayOneShot(combatSFX);
+
     }
 
     void Update()
     {
-        if (isAlive)
-        {
-           // StartCoroutine(Die());
 
-            movement.x = Input.GetAxisRaw("Horizontal");
+        
+        
+
+        movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
 
 
@@ -48,7 +57,7 @@ public class PlayerMovementt : MonoBehaviour
             animator.SetFloat("Speed", movement.sqrMagnitude);
 
             FlipCharcter();
-        }
+        
 
        
 
@@ -68,10 +77,9 @@ public class PlayerMovementt : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isAlive)
-        {
+            
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        }
+        
             
                  
     }
@@ -83,8 +91,10 @@ public class PlayerMovementt : MonoBehaviour
             playerHealth -= 1f;
             if(playerHealth <= 0f)
             {
+                audSrc.PlayOneShot(typeSound);
                 Destroy(gameObject);
                 RestartLevel();
+                
             }
             
         }
