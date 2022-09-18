@@ -32,7 +32,7 @@ public class PlayerMovementt : MonoBehaviour
     {
         if (isAlive)
         {
-            StartCoroutine(Die());
+           // StartCoroutine(Die());
 
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
@@ -73,21 +73,21 @@ public class PlayerMovementt : MonoBehaviour
                  
     }
 
-    IEnumerator Die()
-    {
-        if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Projectile")))
-        {
-            playerHealth -= 10f;
-            if(playerHealth <= 0)
-            {
+    //IEnumerator Die()
+    //{
+    //    if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Projectile")))
+    //    {
+    //        playerHealth -= 10f;
+    //        if(playerHealth <= 0)
+    //        {
 
-                isAlive = false;
-                SceneManager.LoadScene("DeathScreen");
-                yield return new WaitForSeconds(2f);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //            isAlive = false;
+    //            SceneManager.LoadScene("DeathScreen");
+    //            yield return new WaitForSeconds(2f);
+    //            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 
-            }
+    //        }
             
-        }
-    }
+    //    }
+    //}
 }

@@ -27,6 +27,7 @@ public class AimWeapon : PlayerAimWeapon
     {
         aimTransform = transform.Find("Aim");
         aimAnimator = aimTransform.GetComponent<Animator>();
+        
         //aimGunEndPointTransform = aimTransform.GetComponent<Transform>();
     }
 

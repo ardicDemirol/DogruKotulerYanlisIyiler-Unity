@@ -24,9 +24,9 @@ public class Enemy_Controller : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter(Collision other)
     {
-        if(other.tag == "Bullet")
+        if(other.gameObject.tag == "Bullet")
         {
             health--;
         }
