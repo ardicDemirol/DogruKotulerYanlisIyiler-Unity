@@ -14,7 +14,7 @@ public class FollowEnemy : MonoBehaviour
     private float nextShotTime;
 
 
-     float enemyHealth= 3f;
+     float enemyHealth= 2f;
 
     private void Start()
     {

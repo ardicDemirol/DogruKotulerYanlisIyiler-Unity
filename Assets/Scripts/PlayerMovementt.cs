@@ -9,7 +9,7 @@ public class PlayerMovementt : MonoBehaviour
     public Animator animator;
     BoxCollider2D boxCollider;
     private RaycastHit2D hit;
-    float playerHealth = 10f;
+    [SerializeField] float playerHealth =10f;
     bool isAlive = true;
 
 
@@ -80,21 +80,25 @@ public class PlayerMovementt : MonoBehaviour
             playerHealth -= 1f;
             if(playerHealth <= 0f)
             {
-                
                 Destroy(gameObject);
-                SceneManager.LoadScene("DeathScreen");
-                Invoke("Die", 2f);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                DeathScene();
+                
+
             }
             
         }
     }
 
-    IEnumerator Die()
-    {
-        
-        yield return new WaitForSeconds(2f);
-        
 
+    void DeathScene()
+    {
+        SceneManager.LoadScene("DeathScreen");
+        Invoke("ReScene",2f);
+
+    }
+
+    void ReScene()
+    {
+        SceneManager.LoadScene("Scene1");
     }
 }

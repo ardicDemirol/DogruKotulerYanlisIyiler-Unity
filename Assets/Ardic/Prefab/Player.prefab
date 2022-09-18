@@ -162,6 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 3964700746497802140}
   animator: {fileID: 3964700746497802115}
+  playerHealth: 10
   moveSpeed: 5
 --- !u!61 &3964700746497802112
 BoxCollider2D:

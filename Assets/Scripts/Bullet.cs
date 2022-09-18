@@ -15,15 +15,20 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        
+        Destroy(bulletPrefab, 3f);
     }
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject effect = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        Destroy(effect, 5f);
-        Destroy(gameObject);
+        //Destroy(effect, 5f);
+        Destroy(effect);
+
+        if(collision.tag == "Interactable")
+        {
+            Destroy(bulletPrefab);
+        }
     }
 
 
