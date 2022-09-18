@@ -5,21 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
+    int thisScene;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        thisScene = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
     void Update()
     {
-        RestartScene();
+        Invoke("RestartScene",2);
     }
 
-    public void RestartScene()
+     void RestartScene()
     {
-        SceneManager.LoadScene("Scene1");
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1 );
     }
 
 
