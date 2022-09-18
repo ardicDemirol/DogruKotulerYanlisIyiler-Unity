@@ -261,7 +261,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typeSound: {fileID: 8300000, guid: 57e5734adc8a3d34f8197dcd3a4a2d48, type: 3}
   delay: 0.1
-  fullText: "gjhjh kbjhkh\u0131 jgjjh jgjgjgbj"
+  fullText: Aile evin icinde gorunmuyor. Ne kadar ironik degil mi ? Cocugum oldugu
+    icin kac cocugu babasiz biraktim ama simdi duramam. Gorevimi yerine getirmeden
+    olemem.
   currentText: {fileID: 142577045}
 --- !u!82 &142577044
 AudioSource:
