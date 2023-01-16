@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1952074332184025209}
   - component: {fileID: 1952074332184025214}
   - component: {fileID: 1952074332184025215}
-  - component: {fileID: 1952074332184025212}
   - component: {fileID: 1952074332184025213}
-  - component: {fileID: 1104128346}
+  - component: {fileID: 613404083}
+  - component: {fileID: 1972438192}
   m_Layer: 9
   m_Name: ENEMY
   m_TagString: Enemy
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -352688115
-  m_SortingLayer: 2
+  m_SortingLayerID: -1708438073
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 0f39a9205e4394ee1b6ba8269428d176, type: 3}
   m_Color: {r: 0.9150943, g: 0.18704751, b: 0.18704751, a: 1}
@@ -102,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0872736, y: -0.057957172}
+  m_Offset: {x: 0.04827404, y: -0.18975401}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -113,26 +113,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3680782, y: 2.707635}
+  m_Size: {x: 1.2929211, y: 1.708869}
   m_EdgeRadius: 0
---- !u!114 &1952074332184025212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952074332184025200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bbf861deabd66a40ae0aa8c765a6825, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  target: {fileID: 3964700746497802142, guid: 09c3c6662872ac245acd2b3c9918d895, type: 3}
-  minimumDistance: 2
-  projectile: {fileID: 2482669330876068741, guid: 33f52ddc3408b184098db7c73dded364,
-    type: 3}
-  timeBetweenShots: 2.5
 --- !u!114 &1952074332184025213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,10 +128,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  target: {fileID: 3964700746497802142, guid: 09c3c6662872ac245acd2b3c9918d895, type: 3}
-  minimumDistance: 1.5
+  target: {fileID: 0}
+  minimumDistance: 2
   enemyHealth: 3
---- !u!50 &1104128346
+  projectile: {fileID: 2482669330876068741, guid: 33f52ddc3408b184098db7c73dded364,
+    type: 3}
+  timeBetweenShots: 2.5
+  anim: {fileID: 613404083}
+--- !u!95 &613404083
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952074332184025200}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c1610d8135739f4ba4de3f9390253fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1972438192
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854848496430668554}
-  - component: {fileID: 1854848496430668553}
   - component: {fileID: 1145660544}
   m_Layer: 7
   m_Name: Testing
@@ -33,20 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1854848496430668553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854848496430668552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ee9576ae2d964748aac4bd35adec2b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAimWeapon: {fileID: 3964700746497802114, guid: 09c3c6662872ac245acd2b3c9918d895,
-    type: 3}
 --- !u!68 &1145660544
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -63,15 +48,23 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -11.059231, y: 64.001854}
-  - {x: -12.540394, y: 61.444626}
-  - {x: -4.282995, y: 61.528748}
-  - {x: 133.42174, y: 62.58744}
-  - {x: 134.36868, y: 30.171997}
-  - {x: 41.515793, y: 30.93436}
-  - {x: 42.381264, y: -31.512302}
-  - {x: -11.244217, y: -31.78128}
-  - {x: -12.32524, y: 61.988792}
+  - {x: -10.562447, y: 42.888584}
+  - {x: -14.527525, y: 43.06367}
+  - {x: -23.16074, y: 45.383312}
+  - {x: -29.044277, y: 47.234776}
+  - {x: -33.69542, y: 49.467552}
+  - {x: -51.126217, y: 65.05778}
+  - {x: -43.281956, y: 85.31828}
+  - {x: -26.16759, y: 116.54627}
+  - {x: -6.4583893, y: 141.91565}
+  - {x: 25.198103, y: 142.54477}
+  - {x: 53.006516, y: 104.44756}
+  - {x: 69.0868, y: 77.88872}
+  - {x: 69.68599, y: 59.731297}
+  - {x: 37.383957, y: 40.23099}
+  - {x: 37.423058, y: -6.721287}
+  - {x: -11.6574, y: -6.7836723}
+  - {x: -12.32524, y: 42.86219}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

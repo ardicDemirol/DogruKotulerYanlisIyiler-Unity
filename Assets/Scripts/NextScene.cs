@@ -5,22 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class NextScene : MonoBehaviour
 {
-   
-
-    
-
-    
-    
-
     void OnTriggerEnter2D(Collider2D other)
     {
-
         if(other.tag == "Player")
         {
-            Debug.Log("next level point");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
 
+    public void MainMenu()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
 }

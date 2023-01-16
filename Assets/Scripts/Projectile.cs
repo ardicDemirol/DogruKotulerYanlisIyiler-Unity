@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour
 {
     Vector3 targetPosition;
     public float speed;
-    private float playerHealth = 100f;
     public GameObject player;
 
     void Start()
@@ -20,22 +19,9 @@ public class Projectile : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position,targetPosition,speed * Time.deltaTime);
 
-        if(transform.position == targetPosition)
+        if (transform.position == targetPosition)
         {
             Destroy(gameObject);
-            //playerHealth -= 20f;
-            //if (playerHealth <= 0)
-            //{
-            //    PlayerDead();
-            //    Destroy(player);
-            //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            //}
-
         }
     }
-
-    //void PlayerDead()
-    //{
-    //    Debug.Log("Player dead");
-    //}
 }

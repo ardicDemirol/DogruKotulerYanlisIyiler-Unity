@@ -14,12 +14,7 @@ public class FollowEnemy : MonoBehaviour
     private float nextShotTime;
 
 
-     float enemyHealth= 2f;
-
-    private void Start()
-    {
-        
-    }
+     float enemyHealth= 3f;
 
     void Update()
     {
@@ -32,27 +27,19 @@ public class FollowEnemy : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) < minimumDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
-
         }
-
     }
-     /// <summary>
-     /// ////////////////////////////////////////////////////////////
-     /// </summary>
-     /// <param name="collision"></param>
-     /// 
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Bullet")
         {
-            Debug.Log("X");
             enemyHealth -= 1f;
-            if(enemyHealth < 0)
+            if(enemyHealth <= 0)
             {
                 Destroy(collision.gameObject);
             }
-            
         }
     }
 }

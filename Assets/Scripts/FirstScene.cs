@@ -5,10 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class FirstScene : MonoBehaviour
 {
-    int currentScene = 5;
-    int nextScene = 0;
 
-    void Update()
+    public void Update()
     {
 
         if (SceneManager.GetActiveScene().buildIndex == 5)

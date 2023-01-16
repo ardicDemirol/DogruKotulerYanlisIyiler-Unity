@@ -9,57 +9,61 @@ using TMPro;
 
 public class TypeWriter : MonoBehaviour
 {
+    public float delay;
+    int nextSceneIndex;
+    [SerializeField] GameObject panel;
 
 
+    [Multiline]
+    public string startText;
 
-
-    
-   
-
-
-    public float delay = 0.1f;
-    public string fullText;
-    float loadScene = 2f;
-    public TMP_Text currentText;
-
-
+    TextMeshProUGUI thisText;
 
     private void Start()
     {
-
+        nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        thisText = GetComponent<TextMeshProUGUI>();
+        StartCoroutine(TypeWrite());
         
-        StartCoroutine(ShowText());
-
-
+        Time.timeScale = 1;
     }
 
-
-    void Update()
+    private void Update()
     {
-
+        StartCoroutine(ShowAllText());
     }
 
-    IEnumerator ShowText()
+    IEnumerator TypeWrite()
     {
-        for (int i = 0; i < fullText.Length + 1; i++)
+        foreach (char i in startText)
         {
-            
-            
+            thisText.text += i.ToString();
+            if (i.ToString() == ".")
+            {
+                yield return new WaitForSeconds(1);
+            }
+            else
+            {
+                yield return new WaitForSeconds(delay);
+            }
+        }
+        panel.SetActive(true);
+    }
 
-            currentText.text = fullText.Substring(0, i);
-            yield return new WaitForSeconds(delay);
-            
+    IEnumerator ShowAllText()
+    {
+        yield return new WaitForSecondsRealtime(0.4f);
 
-        }
-        yield return new WaitForSeconds(loadScene);
-        if(SceneManager.GetActiveScene().buildIndex == 5)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.touchCount > 0)
         {
-            SceneManager.LoadScene(0);
+            thisText.text = startText;
+            StopAllCoroutines();
+            panel.SetActive(true);
         }
-        else
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        
+    }
+
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(nextSceneIndex);
     }
 }

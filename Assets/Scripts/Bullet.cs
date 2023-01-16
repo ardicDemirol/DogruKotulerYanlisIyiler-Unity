@@ -6,7 +6,6 @@ public class Bullet : MonoBehaviour
 {
     public GameObject bulletPrefab;
     
-    
 
     void Start()
     {
@@ -15,26 +14,8 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        Destroy(bulletPrefab, 3f);
+        Destroy(bulletPrefab, 2f);
     }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        GameObject effect = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        //Destroy(effect, 5f);
-        Destroy(effect);
-
-        if(collision.tag == "Interactable")
-        {
-            Destroy(bulletPrefab);
-        }
-    }
-
-
-
-
-
 
 
 }
