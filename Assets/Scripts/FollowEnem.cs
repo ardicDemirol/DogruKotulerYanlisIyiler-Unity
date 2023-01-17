@@ -47,6 +47,7 @@ public class FollowEnem : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
+        
 
         lastPos = transform.position;
 
@@ -55,12 +56,6 @@ public class FollowEnem : MonoBehaviour
 
         Animations();
         FlipCharcter();
-    }
-
-    private void LateUpdate()
-    {
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

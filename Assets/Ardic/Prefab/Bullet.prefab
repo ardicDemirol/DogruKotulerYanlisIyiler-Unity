@@ -117,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2482669330876068741}
+  target: {fileID: 1952074332184025200, guid: 137002f9d49b3624d8885d9fa694383c, type: 3}
 --- !u!50 &7729430897801101212
 Rigidbody2D:
   serializedVersion: 4

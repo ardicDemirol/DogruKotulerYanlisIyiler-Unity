@@ -40,29 +40,48 @@ public class PlayerMovementt : MonoBehaviour
         movement.x = joystick.Horizontal;
         movement.y = joystick.Vertical;
 
-        if (joystick.Horizontal >= 0.2f)
+        if (joystick.Horizontal >= 0.25f)
         {
             movement.x = moveSpeed;
             gun.transform.localPosition = new Vector3(0.5f, -0.4f, 0);
             gun.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+            if (joystick.Vertical >= 0.3f)
+            {
+                gun.transform.rotation = Quaternion.Euler(0, 0, 45);
+            }
+            if(joystick.Vertical< -.3f)
+            {
+                gun.transform.localPosition = new Vector3(0.5f, -0.4f, 0);
+                gun.transform.rotation = Quaternion.Euler(0, 0, -45);
+            }
         }
         else if (joystick.Horizontal <= -0.25f)
         {
             movement.x = -moveSpeed;
             gun.transform.localPosition = new Vector3(-0.5f, -0.4f, 0);
             gun.transform.rotation = Quaternion.Euler(0, 180, 0);
+
+            if (joystick.Vertical >= 0.3f)
+            {
+                gun.transform.rotation = Quaternion.Euler(0, 180, 45);
+            }
+            if (joystick.Vertical < -.3f)
+            {
+                gun.transform.rotation = Quaternion.Euler(0, 180, -45);
+            }
+
         }
         else if (joystick.Vertical >= 0.2f)
         {
             movement.y = moveSpeed;
             gun.transform.localPosition = new Vector3(0.5f, -0.3f, 0);
             gun.transform.rotation = Quaternion.Euler(0, 0, 90);
-
         }
         else if (joystick.Vertical <= -0.2f)
         {
             movement.y = -moveSpeed;
-            gun.transform.localPosition = new Vector3(0.5f, -0.3f, 0);
+            gun.transform.localPosition = new Vector3(0.5f, -0.5f, 0);
             gun.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
 
@@ -73,7 +92,6 @@ public class PlayerMovementt : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         FlipCharcter();
-
 
     }
 

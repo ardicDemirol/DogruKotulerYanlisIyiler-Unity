@@ -5,17 +5,30 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    
-
-    void Start()
-    {
-        
-    }
+    public GameObject target;
 
     void Update()
     {
         Destroy(bulletPrefab, 2f);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Destroy")
+        {
+            Destroy(gameObject);
+        }
+
+        if(target != null)
+        {
+            if (collision.gameObject.tag == target.tag)
+            {
+                Destroy(gameObject);
+            }
+        }
+        
+    }
+
+    
 
 
 }
